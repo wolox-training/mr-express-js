@@ -1,0 +1,21 @@
+.footer {
+  align-items: center;
+  background-color: $light-blue;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 1em;
+}
+
+.footer-title {
+  color: white;
+  font-size: $big-text;
+  padding: 1em 0;
+}
+
+.footer-footer {
+  align-self: flex-end;
+  color: white;
+  font-size: $small-text;
+  padding: .5em;
+}
