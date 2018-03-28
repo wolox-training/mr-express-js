@@ -1,0 +1,48 @@
+.technologies {
+  background-color: $green;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  height: 284px;
+  text-align: center;
+  border-radius: 5px;
+  margin: 2em;
+}
+
+.card {
+  position: relative;
+  padding: 1.5em;
+}
+
+.card::before {
+  content: "";
+  border: 1px solid $green;
+  border-radius: 5px;
+  width: 200px;
+  height: 284px;
+  position: absolute;
+  left: -10px;
+  top: -10px;
+  z-index: -1;
+}
+
+.tech-logo {
+  height: 100px;
+  weight: auto;
+}
+
+.text-big {
+  font-size: 24px;
+  margin: .5em;
+}
+
+.text-medium {
+  font-size: 16px;
+  margin: .5em;
+}
+
+.text-small {
+  font-size: 12px;
+  margin: .5em;
+}
