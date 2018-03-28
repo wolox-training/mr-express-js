@@ -1,6 +1,11 @@
+$big-text: 24px;
+$medium-text: 16px;
+$small-text: 12px;
+
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 @import 'equalizer';
 @import 'colors';
 @import 'styles';
 @import 'titles';
 @import 'tech';
+@import 'navbar';

@@ -43,17 +43,12 @@
 	max-width: 100px;
  }
 
-.text-big {
-	font-size: 24px;
-	margin: .5em;
- }
-
 .text-medium {
-	font-size: 16px;
+	font-size: $medium-text;
 	margin: .5em;
  }
 
 .text-small {
-	font-size: 12px;
+	font-size: $small-text;
 	margin: .5em;
  }

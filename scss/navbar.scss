@@ -1,0 +1,23 @@
+.navbar {
+  background-color: white;
+	border-bottom: 1px solid $grey;
+	display: flex;
+	height: 90px;
+	justify-content: space-between;
+	left: 0;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.nav-brand {
+  align-self: center;
+  height: 45px;
+  margin: 2em;
+}
+
+.nav-title {
+  align-self: center;
+  font-size: $big-text;
+  margin: 1em;
+}
