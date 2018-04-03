@@ -1,5 +1,13 @@
-.titles {
+.title {
+  align-items: center;
   display: flex;
-  flex-flow: row nowrap;
-  justify-content: flex-start;
+  font-size: 24px;
+
+  &::before {
+    content: url(assets/triangle.svg);
+    left: 20px;
+    position: relative;
+    width: 75px;
+    z-index: -1;
+  }
 }
