@@ -1,7 +1,7 @@
 .technologies {
 	display: flex;
 	flex-flow: row wrap;
-	margin: 0 7em 4em 7em;
+	margin: 0 112px 64px 112px;
  }
 
 .card {
@@ -16,9 +16,8 @@
 	position: relative;
 	text-align: center;
 	width: 200px;
- }
 
-	.card::before {
+	&:before {
 		border-radius: 5px;
 		border: 1px solid $green;
 		content: "";
@@ -30,12 +29,13 @@
                 top 0.5s ease;
 		width: 200px;
 		z-index: -1;
-	 }
+	}
 
-	.card:hover:before {
+	&:hover:before {
 		left: 10px;
 		top: 10px;
-	 }
+	}
+ }
 
 .tech-logo {
 	height: 100px;
