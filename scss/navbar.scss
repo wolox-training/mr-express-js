@@ -1,5 +1,5 @@
 .navbar {
-  background-color: white;
+  background-color: $white;
 	border-bottom: 1px solid $grey;
 	display: flex;
 	height: 90px;
@@ -13,7 +13,7 @@
 .nav-brand {
   align-self: center;
   height: 45px;
-  margin: 2em;
+  margin: 32px;
 }
 
 .nav-title {
