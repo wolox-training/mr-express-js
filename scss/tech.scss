@@ -1,33 +1,33 @@
 .technologies {
-	align-items: center;
-	background-color: $green;
-	border-radius: 5px;
-	display: flex;
-	flex-direction: column;
-	height: 284px;
-	margin: 32px;
-	text-align: center;
-	width: 200px;
+  align-items: center;
+  background-color: $green;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  height: 284px;
+  margin: 32px;
+  text-align: center;
+  width: 200px;
 }
 
 .card {
-	padding: 24px;
-	position: relative;
+  padding: 24px;
+  position: relative;
 
-	&::before {
-		border-radius: 5px;
-		border: 1px solid $green;
-		content: "";
-		height: 284px;
-		left: -10px;
-		position: absolute;
-		top: -10px;
-		width: 200px;
-		z-index: -1;
-	}
+  &::before {
+    border-radius: 5px;
+    border: 1px solid $green;
+    content: "";
+    height: 284px;
+    left: -10px;
+    position: absolute;
+    top: -10px;
+    width: 200px;
+    z-index: -1;
+  }
 }
 
 .tech-logo {
-	height: 100px;
-	weight: auto;
+  height: 100px;
+  weight: auto;
 }
