@@ -1,14 +1,18 @@
-.text-big {
-  font-size: 24px;
+.text {
   margin: 8px;
+}
+
+.text-big {
+  @extend .text;
+  font-size: 24px;
 }
 
 .text-medium {
+  @extend .text;
   font-size: 16px;
-  margin: 8px;
 }
 
 .text-small {
+  @extend .text;
   font-size: 12px;
-  margin: 8px;
 }
