@@ -1,18 +1,13 @@
-.titles {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: flex-start;
-  margin: 1em 2em;
-}
-
 .title {
-  align-self: center;
+  align-items: center;
+  display: flex;
   font-size: 24px;
-  margin-left: -33px;
-}
 
-.titles-img {
-  flex: 0 1;
-  height: 90px;
-  width: 100px;
+  &::before {
+    content: url(assets/triangle.svg);
+    left: 20px;
+    position: relative;
+    width: 75px;
+    z-index: -1;
+  }
 }
