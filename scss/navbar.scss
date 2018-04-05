@@ -1,6 +1,7 @@
 .navbar {
   background-color: $white;
   border-bottom: 1px solid $grey;
+  box-shadow: 0 5px 15px 0 $grey;
   display: flex;
   height: 90px;
   justify-content: space-between;
