@@ -9,7 +9,7 @@
   grid-template-rows: 1fr 1fr;
   justify-content: center;
   justify-items: center;
-  margin: 32px 0px 100px 0px;
+  margin: 32px 0 100px 0;
 }
 
 .card {
@@ -35,6 +35,7 @@
   display: flex;
   grid-area: main;
   justify-content: center;
+  height: auto;
 }
 
 @media only screen and (max-width: 1024px) {
