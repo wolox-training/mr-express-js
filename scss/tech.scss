@@ -38,7 +38,7 @@
   height: auto;
 }
 
-@media only screen and (max-width: 1024px) {
+@media (max-width: $mobile-resolution) {
   .technologies {
     grid-template-areas:
       "main";

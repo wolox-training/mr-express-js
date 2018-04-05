@@ -22,7 +22,7 @@
   margin-bottom: 12px;
 }
 
-@media only screen and (max-width: 1024px) {
+@media (max-width: $mobile-resolution) {
   .text {
     margin: 12px;
   }
