@@ -1,45 +1,39 @@
 .technologies {
-  display: flex;
-  flex-flow: row wrap;
-  margin: 0 112px 64px 112px;
+  align-items: center;
+  display: grid;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "main . ."
+    "main . .";
+  grid-template-columns: 250px 250px 250px;
+  grid-template-rows: 1fr 1fr;
+  justify-content: center;
+  justify-items: center;
+  margin: 32px 0px 100px 0px;
 }
 
 .card {
   align-items: center;
-  background-color: $green;
-  border-radius: 5px;
+  align-self: center;
   display: flex;
   flex-direction: column;
   height: 290px;
-  margin: 16px;
   padding: 8px;
   position: relative;
   text-align: center;
   width: 200px;
-
-  &:before {
-    border-radius: 5px;
-    border: 1px solid $green;
-    content: "";
-    height: 290px;
-    left: -10px;
-    position: absolute;
-    top: -10px;
-
-    transition: left 0.5s ease,
-    top 0.5s ease;
-    width: 200px;
-    z-index: -1;
-  }
-
-  &:hover:before {
-    left: 10px;
-    top: 10px;
-  }
 }
 
 .tech-logo {
   height: 100px;
   margin: 3px;
   max-width: 100px;
+}
+
+.main-area {
+  align-self: stretch;
+  border-right: 2px solid $green;
+  display: flex;
+  grid-area: main;
+  justify-content: center;
 }
