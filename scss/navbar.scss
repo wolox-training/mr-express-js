@@ -23,3 +23,19 @@
   font-size: 24px;
   margin: 16px;
 }
+
+@media (max-width: $mobile-resolution) {
+  .navbar {
+    height: 150px;
+    box-shadow: 0 15px 30px 0 $grey;
+  }
+
+  .nav-brand {
+    height: 45px;
+    margin: 37px;
+  }
+
+  .nav-title {
+    display: none;
+  }
+}

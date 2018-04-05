@@ -17,7 +17,6 @@
   align-self: center;
   display: flex;
   flex-direction: column;
-  height: 290px;
   padding: 8px;
   position: relative;
   text-align: center;
@@ -37,4 +36,33 @@
   grid-area: main;
   justify-content: center;
   height: auto;
+}
+
+@media (max-width: $mobile-resolution) {
+  .technologies {
+    grid-template-areas:
+      "main";
+    grid-template-columns: auto;
+  }
+
+  .card {
+    border-bottom: 5px solid $green;
+    margin-bottom: 75px;
+    width: 300px;
+
+    &:last-of-type {
+      border-bottom: none;
+    }
+  }
+
+  .tech-logo {
+    height: 275px;
+    margin: 10px;
+    max-width: 275px;
+  }
+
+  .main-area {
+    border-right: none;
+    border-bottom: 5px solid $green;
+  }
 }

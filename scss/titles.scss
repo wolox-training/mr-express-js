@@ -16,3 +16,22 @@
     margin-top: 150px;
   }
 }
+
+@media (max-width: $mobile-resolution) {
+  .title {
+    font-size: 60px;
+    margin: 60px;
+
+    &::before {
+      content: url(assets/triangle.svg);
+      left: 43px;
+      position: relative;
+      width: 175px;
+      z-index: -1;
+    }
+
+    &:first-of-type {
+      margin-top: 275px;
+    }
+  }
+}
