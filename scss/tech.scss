@@ -39,7 +39,6 @@
 
 @media only screen and (max-width: 1024px) {
   .technologies {
-    grid-auto-flow: row;
     grid-template-areas:
       "main";
     grid-template-columns: auto;
